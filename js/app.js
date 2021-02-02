@@ -14,3 +14,7 @@ $('a').each(function(index,item){
   console.log(index, $(item).text());
 });
 // 5. Refatore a pergunta nº 4 usando a palavra-chave 'this'. 
+
+$('a').each(function(index){
+  console.log(index, $(this).text());
+});
